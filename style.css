@@ -1,0 +1,65 @@
+:root{
+    --background-clr: hsla(194, 100%, 50%, 0);
+    --image: url('./images/IMG_20230212_115847780-EDIT.jpg');
+    --color-principal: #be1b80;
+    font-family: Segoe Script, Tangerine, cursive;
+}
+*{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    backdrop-filter: blur(1px);
+    width: 100%;
+}
+
+#all-pg{
+    background-image: var(--image);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.wedding-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+    margin: 0;
+    height: 5%;
+    width: 15%;
+}
+
+#bkground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+}
+
+.time-to-wedding{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 66%;
+    height: 66%;
+}
+
+.text-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-stretch: expanded;
+    color: var(--color-principal);
+    font-size: 10vw;
+}
