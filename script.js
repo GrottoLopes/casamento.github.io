@@ -28,6 +28,7 @@ function setarDia(){
     let day = date.getDate();
     let month = date.getMonth();
     let year = date.getFullYear();
+    month = parseInt(month)+1;
     if (day < 10) {
         day = "0" + day;
     }
@@ -37,7 +38,7 @@ function setarDia(){
     if (month < 10) {
         month = "0" + month;
     }
-    let data = day + "-" + (parseInt(month)+1) + "-" + year;
+    let data = day + "-" + month + "-" + year;
     let dataCompleta = date;
     return {data, dataCompleta};
 }
