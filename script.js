@@ -37,7 +37,7 @@ function setarDia(){
     if (month < 10) {
         month = "0" + month;
     }
-    let data = day + "-" + month + "-" + year;
+    let data = day + "-" + (parseInt(month)+1) + "-" + year;
     let dataCompleta = date;
     return {data, dataCompleta};
 }
